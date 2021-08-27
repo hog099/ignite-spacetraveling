@@ -1,0 +1,68 @@
+.containerbanner{
+    width: 100vw;
+    height: 22rem;
+    
+    img{
+        width: 100vw;
+        height: 22rem;
+        object-fit: cover;
+    }
+}
+
+.container {
+    height: calc(100vh - 5rem);
+    padding: 2rem;
+    
+    display: flex;
+    justify-content: center;
+}
+
+
+.content {
+    max-width: 700px;
+    height: 100%;
+    padding: 0 2rem 0 2rem;
+    
+  
+    display: flex;
+    flex-direction: column;
+
+    h2{
+        font-size: 30px;
+    }
+  
+  
+  }
+
+  .info {
+    margin-top: 0.8rem;
+    margin-bottom: 3rem;
+    display: flex;
+    flex-direction: row;
+  
+    span {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      margin-right: 0.8rem;
+  
+      p {
+        margin-left: 0.4rem;
+        font-size: 0.6rem;
+      }
+    }
+  }
+
+
+  .sectionbody{
+    padding-bottom: 10rem;
+  }
+
+  .sectionbodycontent{
+    h2{
+      margin: 1rem 0;
+    }
+    article{
+      line-height: 30px;
+    }
+  }
